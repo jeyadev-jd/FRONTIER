@@ -1,0 +1,71 @@
+# FRONTIER Channel Configuration
+channels:
+  - name: "#signal"
+    description: Official announcements
+    auto_publish: false
+    min_relevance: 0.90
+    categories: [OPPORTUNITY]
+
+  - name: "#frontier-guide"
+    description: FRONTIER guides and tutorials
+    auto_publish: false
+    min_relevance: 0.80
+    categories: [GENERAL]
+
+  - name: "#frontier-lounge"
+    description: General community chat
+    auto_publish: false
+    min_relevance: 0.70
+    categories: [GENERAL]
+
+  - name: "#forge"
+    description: Projects, GitHub, coding, vibe coding
+    auto_publish: false
+    min_relevance: 0.75
+    categories: [BUILD, PITCHING]
+
+  - name: "#bug-hunt"
+    description: Technical debugging and errors
+    auto_publish: false
+    min_relevance: 0.70
+    categories: [DEBUGGING]
+
+  - name: "#neural"
+    description: AI, LLM, machine learning
+    auto_publish: false
+    min_relevance: 0.80
+    categories: [AI]
+
+  - name: "#lab"
+    description: Research papers, Overleaf, academic
+    auto_publish: false
+    min_relevance: 0.80
+    categories: [RESEARCH]
+
+  - name: "#arena"
+    description: Hackathons, competitions, challenges
+    auto_publish: false
+    min_relevance: 0.85
+    categories: [HACKATHON]
+
+  - name: "#missions"
+    description: FRONTIER internal challenges
+    auto_publish: false
+    min_relevance: 0.90
+    categories: [GENERAL]
+
+  - name: "#launchpad"
+    description: Student project showcases
+    auto_publish: false
+    min_relevance: 0.75
+    categories: [BUILD, GENERAL]
+
+routing_keywords:
+  "#neural": [AI, LLM, machine learning, prompt engineering, transformer, GPT, Claude, Gemini, model, inference, fine-tuning, embeddings]
+  "#forge": [project, GitHub, coding, build, vibe coding, tool, library, framework, TypeScript, Python, React, API]
+  "#lab": [research, paper, arXiv, study, findings, academic, Overleaf, citation, dataset]
+  "#arena": [hackathon, competition, challenge, prize, submit, deadline, team, devpost]
+  "#bug-hunt": [error, bug, debug, fix, crash, exception, traceback, stack overflow]
+  "#missions": [mission, FRONTIER, internal challenge]
+  "#launchpad": [showcase, demo, project, built, ship, launch, portfolio]
+  "#signal": [announcement, official, important, urgent]
