@@ -160,12 +160,16 @@ FRONTIER/
 
 ---
 
-## Phase Roadmap
+## Screenshots
 
-- **Phase 1** ✅ — Core generate/preview/publish flow
-- **Phase 2** — Web search, URL extraction, content discovery
-- **Phase 3** — Style profile learning, template refinement
-- **Phase 4** — Research + hackathon discovery, arXiv, X
-- **Phase 5** — Scheduler, auto-discovery jobs
-- **Phase 6** — Full React dashboard
-- **Phase 7** — Auto-publish rules, debugging assistant, missions
+### Discover Tab — Hackathon Queue
+![Discover Tab](screenshots/discover.png)
+
+### Generate Post
+![Generate Post](screenshots/generate.png)
+
+### Approve & Publish
+![Approve Publish](screenshots/approve.png)
+
+### Published History
+![Published](screenshots/published.png)
